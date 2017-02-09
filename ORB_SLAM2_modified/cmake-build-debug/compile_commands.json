@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/mono_euroc.dir/Examples/Monocular/mono_euroc.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_euroc.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_euroc.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/mono_kitti.dir/Examples/Monocular/mono_kitti.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_kitti.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_kitti.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/mono_tum.dir/Examples/Monocular/mono_tum.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_tum.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/Monocular/mono_tum.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/stereo_euroc.dir/Examples/Stereo/stereo_euroc.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/Stereo/stereo_euroc.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/Stereo/stereo_euroc.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/Stereo/stereo_kitti.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/Stereo/stereo_kitti.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g   -o CMakeFiles/rgbd_tum.dir/Examples/RGB-D/rgbd_tum.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/RGB-D/rgbd_tum.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/RGB-D/rgbd_tum.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/System.cc.o -c /home/jackey/install/ORB_SLAM2/src/System.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/System.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Tracking.cc.o -c /home/jackey/install/ORB_SLAM2/src/Tracking.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Tracking.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/LocalMapping.cc.o -c /home/jackey/install/ORB_SLAM2/src/LocalMapping.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/LocalMapping.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/LoopClosing.cc.o -c /home/jackey/install/ORB_SLAM2/src/LoopClosing.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/LoopClosing.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/ORBextractor.cc.o -c /home/jackey/install/ORB_SLAM2/src/ORBextractor.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/ORBextractor.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/ORBmatcher.cc.o -c /home/jackey/install/ORB_SLAM2/src/ORBmatcher.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/ORBmatcher.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/FrameDrawer.cc.o -c /home/jackey/install/ORB_SLAM2/src/FrameDrawer.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/FrameDrawer.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Converter.cc.o -c /home/jackey/install/ORB_SLAM2/src/Converter.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Converter.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/MapPoint.cc.o -c /home/jackey/install/ORB_SLAM2/src/MapPoint.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/MapPoint.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrame.cc.o -c /home/jackey/install/ORB_SLAM2/src/KeyFrame.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/KeyFrame.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Map.cc.o -c /home/jackey/install/ORB_SLAM2/src/Map.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Map.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/MapDrawer.cc.o -c /home/jackey/install/ORB_SLAM2/src/MapDrawer.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/MapDrawer.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Optimizer.cc.o -c /home/jackey/install/ORB_SLAM2/src/Optimizer.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Optimizer.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/PnPsolver.cc.o -c /home/jackey/install/ORB_SLAM2/src/PnPsolver.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/PnPsolver.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Frame.cc.o -c /home/jackey/install/ORB_SLAM2/src/Frame.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Frame.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/KeyFrameDatabase.cc.o -c /home/jackey/install/ORB_SLAM2/src/KeyFrameDatabase.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/KeyFrameDatabase.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Sim3Solver.cc.o -c /home/jackey/install/ORB_SLAM2/src/Sim3Solver.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Sim3Solver.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Initializer.cc.o -c /home/jackey/install/ORB_SLAM2/src/Initializer.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Initializer.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/cmake-build-debug",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DORB_SLAM2_EXPORTS -I/home/jackey/install/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/include -I/usr/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev   -Wall   -O3 -march=native -std=c++11 -g -fPIC   -o CMakeFiles/ORB_SLAM2.dir/src/Viewer.cc.o -c /home/jackey/install/ORB_SLAM2/src/Viewer.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/src/Viewer.cc"
+}
+]
