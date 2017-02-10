@@ -28,3 +28,7 @@ To run the program you also need to download the ORB vocabulary (which is a larg
 
 # Run examples
 Prepare a RGBD camera or dataset, give the correct parameters and you can get a ORB SLAM with point cloud maps like the example.jpg in this repo.
+
+# Build the unpacked modified repo 
+
+please see this [README](./ORB_SLAM2_modified/README.md)

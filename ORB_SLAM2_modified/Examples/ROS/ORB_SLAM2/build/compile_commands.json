@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../.. -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../../include -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/eigen3   -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG   -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/RGBD.dir/src/ros_rgbd.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../.. -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../../include -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/eigen3   -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG   -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/Stereo.dir/src/ros_stereo.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_stereo.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_stereo.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../.. -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../../include -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/eigen3   -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG   -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/Mono.dir/src/ros_mono.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_mono.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/ros_mono.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../.. -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../../include -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/eigen3   -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG   -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/MonoAR.dir/src/AR/ros_mono_ar.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/AR/ros_mono_ar.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/AR/ros_mono_ar.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build",
+  "command": "/usr/bin/c++   -DCOMPILEDWITHC11 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2 -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../.. -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/../../../include -I/usr/local/lib/cmake/Pangolin/../../../include -I/usr/include/eigen3   -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG   -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/MonoAR.dir/src/AR/ViewerAR.cc.o -c /home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.cc",
+  "file": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -Dgtest_EXPORTS -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/usr/src/gtest/include -I/usr/src/gtest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\\\"ORB_SLAM2\\\" -Dgtest_main_EXPORTS -I/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/include -I/usr/src/gtest/include -I/usr/src/gtest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+}
+]
