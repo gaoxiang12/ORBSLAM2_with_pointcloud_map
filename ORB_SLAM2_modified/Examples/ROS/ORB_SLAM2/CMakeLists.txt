@@ -56,7 +56,13 @@ ${OpenCV_LIBS}
 ${EIGEN3_LIBS}
 ${Pangolin_LIBRARIES}
 ${PROJECT_SOURCE_DIR}/../../../Thirdparty/DBoW2/lib/libDBoW2.so
-${PROJECT_SOURCE_DIR}/../../../Thirdparty/g2o/lib/libg2o.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_core.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_types_sclam2d.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_solver_csparse.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_stuff.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_csparse_extension.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_types_sim3.so
+${PROJECT_SOURCE_DIR}/../../../../g2o_with_orbslam2/lib/libg2o_types_sba.so
 ${PROJECT_SOURCE_DIR}/../../../lib/libORB_SLAM2.so
 )
 
