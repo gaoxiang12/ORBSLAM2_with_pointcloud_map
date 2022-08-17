@@ -26,19 +26,11 @@
 #include <pangolin/pangolin.h>
 #include <iomanip>
 
-#include <time.h>
-
-bool has_suffix(const std::string &str, const std::string &suffix) {
-  std::size_t index = str.find(suffix, str.size() - suffix.size());
-  return (index != std::string::npos);
-}
-
 namespace ORB_SLAM2
 {
 
 System::System(const string &strVocFile, const string &strSettingsFile, const eSensor sensor,
-               const bool bUseViewer):
-    mSensor(sensor), mpViewer(static_cast<Viewer*>(NULL)), mbReset(false),mbActivateLocalizationMode(false),
+               const bool bUseViewer):mSensor(sensor), mpViewer(static_cast<Viewer*>(NULL)), mbReset(false),mbActivateLocalizationMode(false),
         mbDeactivateLocalizationMode(false)
 {
     // Output welcome message
@@ -65,26 +57,20 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
        exit(-1);
     }
 
-    // for point cloud resolution
     float resolution = fsSettings["PointCloudMapping.Resolution"];
 
     //Load ORB Vocabulary
     cout << endl << "Loading ORB Vocabulary. This could take a while..." << endl;
 
-    clock_t tStart = clock();
     mpVocabulary = new ORBVocabulary();
-    bool bVocLoad = false; // chose loading method based on file extension
-    if (has_suffix(strVocFile, ".txt"))
-	  bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);
-	else
-	  bVocLoad = mpVocabulary->loadFromBinaryFile(strVocFile);
+    bool bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);
     if(!bVocLoad)
     {
         cerr << "Wrong path to vocabulary. " << endl;
-        cerr << "Failed to open at: " << strVocFile << endl;
+        cerr << "Falied to open at: " << strVocFile << endl;
         exit(-1);
     }
-    printf("Vocabulary loaded in %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+    cout << "Vocabulary loaded!" << endl << endl;
 
     //Create KeyFrame Database
     mpKeyFrameDatabase = new KeyFrameDatabase(*mpVocabulary);
@@ -96,11 +82,9 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     mpFrameDrawer = new FrameDrawer(mpMap);
     mpMapDrawer = new MapDrawer(mpMap, strSettingsFile);
 
-    // Initialize pointcloud mapping
-    mpPointCloudMapping = make_shared<PointCloudMapping>( resolution );
-
     //Initialize the Tracking thread
     //(it will live in the main thread of execution, the one that called this constructor)
+    mpPointCloudMapping = make_shared<PointCloudMapping>( resolution );
     mpTracker = new Tracking(this, mpVocabulary, mpFrameDrawer, mpMapDrawer,
                              mpMap, mpPointCloudMapping, mpKeyFrameDatabase, strSettingsFile, mSensor);
 
@@ -137,7 +121,7 @@ cv::Mat System::TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, const
     {
         cerr << "ERROR: you called TrackStereo but input sensor was not set to STEREO." << endl;
         exit(-1);
-    }
+    }   
 
     // Check mode change
     {
@@ -188,7 +172,7 @@ cv::Mat System::TrackRGBD(const cv::Mat &im, const cv::Mat &depthmap, const doub
     {
         cerr << "ERROR: you called TrackRGBD but input sensor was not set to RGBD." << endl;
         exit(-1);
-    }
+    }    
 
     // Check mode change
     {
@@ -320,8 +304,6 @@ void System::Shutdown()
 {
     mpLocalMapper->RequestFinish();
     mpLoopCloser->RequestFinish();
-    mpPointCloudMapping->shutdown();
-
     if(mpViewer)
     {
         mpViewer->RequestFinish();
@@ -389,7 +371,6 @@ void System::SaveTrajectoryTUM(const string &filename)
 
         cv::Mat Tcw = (*lit)*Trw;
         cv::Mat Rwc = Tcw.rowRange(0,3).colRange(0,3).t();
-        // twc: world coordinate
         cv::Mat twc = -Rwc*Tcw.rowRange(0,3).col(3);
 
         vector<float> q = Converter::toQuaternion(Rwc);
@@ -490,6 +471,37 @@ void System::SaveTrajectoryKITTI(const string &filename)
     }
     f.close();
     cout << endl << "trajectory saved!" << endl;
+}
+
+void System::SaveMapPointsKITTI(const string &filename)
+{
+    cout << endl << "Saving map points to " << filename << " ..." << endl;
+
+    const vector<MapPoint*> &vpMPs = mpMap->GetAllMapPoints();
+
+    // Transform all keyframes so that the first keyframe is at the origin.
+    // After a loop closure the first keyframe might not be at the origin.
+
+    ofstream f;
+    f.open(filename.c_str());
+    f << fixed;
+
+    // Frame pose is stored relative to its reference keyframe (which is optimized by BA and pose graph).
+    // We need to get first the keyframe pose and then concatenate the relative transformation.
+    // Frames not localized (tracking failure) are not saved.
+
+    // For each frame we have a reference keyframe (lRit), the timestamp (lT) and a flag
+    // which is true when tracking failed (lbL).
+    list<ORB_SLAM2::KeyFrame*>::iterator lRit = mpTracker->mlpReferences.begin();
+    
+    for(size_t i=0, iend=vpMPs.size(); i<iend;i++)
+    {
+        cv::Mat pos = vpMPs[i]->GetWorldPos();
+        f << pos.at<float>(0) << " " << pos.at<float>(1)  << " " <<pos.at<float>(2) << " " << endl;
+    }
+
+    f.close();
+    cout << endl << "Map points saved!" << endl;
 }
 
 int System::GetTrackingState()
